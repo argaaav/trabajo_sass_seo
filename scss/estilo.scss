@@ -1,0 +1,13 @@
+body {
+    background-image: url(/img/white-paper-texture.jpg);
+    overflow-x: hidden;
+
+    header {
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+}

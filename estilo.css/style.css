@@ -1,0 +1,288 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+
+
+@media (max-width: 1000px){
+    #header{
+            /* Reverse the axis of the header, making it vertical. */
+            flex-direction: column;
+            
+            /* Align items to the begining (the left) of the header. */
+            align-items: flex-start;
+    }
+}
+
+#TITULO {
+    color: black;
+font-size: 60px;
+font-family: 'Oswald', sans-serif;
+padding-left: 15px;
+margin-left: 10px;
+max-width: 100%;
+}
+
+@media (max-width: 1000px){
+    .titulo{
+            /* Reverse the axis of the header, making it vertical. */
+            flex-direction: column;
+            
+            /* Align items to the begining (the left) of the header. */
+            align-items: flex-start;
+    }
+}
+
+.textoAlbum {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 35px;
+     }
+.tituloAgenda {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+.suscribite {
+    align-items: center;
+    text-align: center;
+    border: #393e41 2px none;
+margin-left: auto;
+margin-right: auto;
+    font-size: 20px;
+    background-color: #a7aeb4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    width: 50%;
+    max-width: 100%;
+    height:50%;
+}
+
+@media (max-width: 1000px){
+    .suscribite{
+            /* Reverse the axis of the header, making it vertical. */
+            flex-direction: column;
+            
+            /* Align items to the begining (the left) of the header. */
+            align-items: flex-start;
+    }
+}
+
+.boton {
+    color: #8a8a8c;
+    font-size: 20px;
+    border: 2px #36393b outset;
+}
+.textosuscribite {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
+#listaHeader {
+    list-style-type: none;
+    font-size: 130%;
+    line-height: 100%;
+    position: static;
+    font-family: 'Oswald', sans-serif;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.tablaLanzamientos {
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px #36393b solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #d9d9d9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.imagenesPortadas {
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    padding-left: 90px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media all and (max-width: 1000px){
+    .imagenLali{
+    width:180px;
+    }
+    }
+    @media all and (max-width: 400px){
+    .imagenLali{
+    width:100%;
+    }
+    }
+.fotos {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+
+.noticiaTitulo {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+.imagenLali {
+    height:50%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 50%;
+    max-width: 100%;
+}
+
+
+.primernoticia {
+    justify-content: space-between;
+    align-items: center;
+    border: 1px #36393b thin;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 15px;
+    background-color: #d9d9d9;
+    text-align: center;
+    padding-left: 30px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    margin-right: 180px;;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    max-width: 1000px;
+    width: 100%;
+}
+.boton {
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.tituloLali {
+    display:contents;
+}
+
+#videos {
+    width: 50px;
+    margin-right: 200px;
+}
+    
+.row {
+    align-content: center;
+    align-items: center;  }
+
+.ranking {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 50px;
+    margin-left: 170px;
+    margin-right: 700px;
+    margin-bottom: 100px;
+    padding-right: 50px;
+    font-size: 20px;
+    border: 2px gray dashed; width: 
+    1000px;
+    height: 600px;
+}
+
+.list-group {
+    height: 800px;
+    width: 800px;
+}
+
+
+#sectorbordes {
+    border: 0px none #c4c5c7; }
+
+    .textoFooter {
+        text-align: center;
+        font-size: 200%;
+        font-family: 'Oswald', sans-serif;
+    }
+    .enlaces {
+        font-size: 150%;
+        line-height: 10%;
+    }
+    .enlacesdos {
+        font-size: 150%;
+        text-align: right;
+        line-height: 1%;
+    }
+
+    .mapa {
+        margin-left: 80px;
+        margin-bottom: 280px;;
+        max-width: 100%;
+        width: 50%;
+        height: 50%;
+    }
+
+    @media all and (max-width: 1000px){
+        .mapa{
+        width:180px;
+        }
+        }
+        @media all and (max-width: 400px){
+        .mapa{
+        width:100%;
+        }
+        }
+
+    .textodireccion {
+        text-align: right;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        margin-right: 10px;
+        
+        margin-bottom: 280px;
+    
+    }
+
+    @media (max-width:700px) and (min-width:500px) {
+        .textodireccion{
+           font-size: 12px;
+        }
+    }
+    @media (max-width:700px) and (min-width:500px) {
+        .textoEmail{
+           font-size: 12px;
+        }
+    }
+    @media (max-width:700px) and (min-width:500px) {
+        .textoTelefono{
+           font-size: 12px;
+        }
+    }
+    
+    .textoTelefono {
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .textoEmail {
+        margin-right: 10px;
+        font-size: 20px;
+    }
